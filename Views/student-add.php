@@ -28,7 +28,6 @@
                     </div>
                     <button type="submit" class="btn btn-dark ml-auto d-block">Agregar</button>
                </form>
-               <button id="login_button">lalala</button>
           </div>
      </section>
 </main>
