@@ -10,24 +10,28 @@
                          <div class="col-lg-4">
                               <div class="form-group">
                                    <label for="">Legajo</label>
-                                   <input type="text" name="recordId" value="" class="form-control">
+                                   <input type="text" id="recordId" name="recordId" value="" class="form-control">
                               </div>
                          </div>
                          <div class="col-lg-4">
                               <div class="form-group">
                                    <label for="">Nombre</label>
-                                   <input type="text" name="firstName" value="" class="form-control">
+                                   <input type="text" id="firstName" name="firstName" value="" class="form-control">
                               </div>
                          </div>
                          <div class="col-lg-4">
                               <div class="form-group">
                                    <label for="">Apellido</label>
-                                   <input type="text" name="lastName" value="" class="form-control">
+                                   <input type="text" id="lastName" name="lastName" value="" class="form-control">
                               </div>
                          </div>
                     </div>
                     <button type="submit" class="btn btn-dark ml-auto d-block">Agregar</button>
                </form>
+               <button id="login_button">lalala</button>
           </div>
      </section>
 </main>
+<script>
+     loginVerification();
+</script>

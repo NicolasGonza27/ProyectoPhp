@@ -10,6 +10,9 @@
      <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH ?>estilos.css">
      <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH ?>custom.css">
 
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+     <script type="text/javascript" src="<?php echo JS_PATH ?>/events.js"></script>
+
      <title>Framework Example</title>
 </head>
 <body>
