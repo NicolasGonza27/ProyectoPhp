@@ -5,17 +5,18 @@ function loginVerification() {
             alert("lala");
 
             $.post(
-                "dashboard/proyectos/ProyectoPhp/Student/Adddd",
+                "../ProyectoPhp/Student/Add",
                 {
-                    'recordId': $("#recordId").text(),
-                    'firstName': $("#firstName").text(),
-                    'lastName': $("#lastName").text()
+                    'recordId': $("#recordId").val(),
+                    'firstName': $("#firstName").val(),
+                    'lastName': $("#lastName").val()
                 },
                 function (data) {
                     if (!data) {
                         console.log("error");
                     }
                     console.log("lalala");
+                    window.open("../ProyectoPhp/Student/ShowListView");
                 }
             ); 
         }

@@ -5,7 +5,7 @@
      <section id="listado" class="mb-5">
           <div class="container">
                <h2 class="mb-4">Agregar alumno</h2>
-               <form action="<?php echo FRONT_ROOT ?>Student/Add" method="post" class="bg-light-alpha p-5">
+               <form action="." method="post" class="bg-light-alpha p-5">
                     <div class="row">                         
                          <div class="col-lg-4">
                               <div class="form-group">
@@ -26,7 +26,7 @@
                               </div>
                          </div>
                     </div>
-                    <button type="submit" class="btn btn-dark ml-auto d-block">Agregar</button>
+                    <button id="login_button" class="btn btn-dark ml-auto d-block">Agregar</button>
                </form>
           </div>
      </section>
