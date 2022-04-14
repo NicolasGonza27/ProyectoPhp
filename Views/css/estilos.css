@@ -3,13 +3,42 @@
 html, body {
      height: 100%;
 }
+
 body {
-     font-family: 'Montserrat', sans-serif;
-     background: url(../img/bg.png) no-repeat center center fixed;
+     font-family: 'Chakra Petch', sans-serif;
+     color: white;
+     background-color: black;
      -webkit-background-size: cover;
         -moz-background-size: cover;
           -o-background-size: cover;
              background-size: cover;
+}
+
+a {
+     color: white;
+}
+
+a:hover {
+     color: red;
+}
+
+.cyberpunk-logo {
+     display: inline;
+     padding: 5px;
+}
+
+.main-menu {
+     display: inline-block;
+     height: 150px;
+     width: 150px;
+     padding: 5px;
+     margin: 10px;
+     background-color: red;
+     border-radius: 5px;
+}
+
+.center {
+     text-align: center;
 }
 
 .height-100 {
