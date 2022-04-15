@@ -19,10 +19,12 @@ a {
 }
 
 a:hover {
-     color: red;
+     color: rgb(218, 22, 202);
 }
 
 .cyberpunk-logo {
+     width: inherit;
+     height: 55px;
      display: inline;
      padding: 5px;
 }
@@ -33,7 +35,7 @@ a:hover {
      width: 150px;
      padding: 5px;
      margin: 10px;
-     background-color: red;
+     background-color: rgb(162, 21, 167);
      border-radius: 5px;
 }
 

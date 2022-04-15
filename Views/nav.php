@@ -1,8 +1,10 @@
 <nav class="nav justify-content-center navbar-dark bg-dark">
      <div class="container">
           <ul class="nav nav-fill">
-               <div class="cyberpunk-logo nav-item">
-                    logo
+               <div class="nav-item text-left">
+                    <a href="<?= FRONT_ROOT ?>Home">    
+                         <img class="cyberpunk-logo" src="<?php echo IMG_PATH ?>Logo_claro_2-removebg-preview.png">
+                    </a>
                </div>
                <li class="nav-item">
                     <a class="nav-link" href="<?php echo FRONT_ROOT ?>Student/ShowListView">My Characters</a>
