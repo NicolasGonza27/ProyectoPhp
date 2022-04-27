@@ -6,8 +6,24 @@
                          <img class="cyberpunk-logo" src="<?php echo IMG_PATH ?>Logo_claro_2-removebg-preview.png">
                     </a>
                </div>
-               <li class="nav-item">
+               <li class="nav-item my-characters-supmenu">
                     <a class="nav-link" href="<?php echo FRONT_ROOT ?>Student/ShowListView">My Characters</a>
+                    <div class="my-characters-hovermenu">
+                         <div class="my-characters-hovermenu__section">
+                              <div class="my-characters-hovermenu__item">Fixer</div>
+                              <div class="my-characters-hovermenu__item">Solo</div>
+                              <div class="my-characters-hovermenu__item">Rockerboy</div>
+                              <div class="my-characters-hovermenu__item">Tech</div>
+                              <div class="my-characters-hovermenu__item">Medic</div>
+                         </div>
+                         <div class="my-characters-hovermenu__section">
+                              <div class="my-characters-hovermenu__item">Media</div>
+                              <div class="my-characters-hovermenu__item">Netrunner</div>
+                              <div class="my-characters-hovermenu__item">Police</div>
+                              <div class="my-characters-hovermenu__item">Nomad</div>
+                              <div class="my-characters-hovermenu__item">Executive</div>
+                         </div>
+                    </div>
                </li>
                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">The Streets</a>
