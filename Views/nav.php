@@ -7,7 +7,7 @@
                     </a>
                </div>
                <li class="nav-item my-characters-supmenu">
-                    <a class="nav-link" href="<?php echo FRONT_ROOT ?>Student/ShowListView">My Characters</a>
+                    <a class="nav-link" href="<?php echo FRONT_ROOT ?>Character/ShowCharacterSheetView">My Characters</a>
                     <div class="my-characters-hovermenu">
                          <div class="my-characters-hovermenu__section">
                               <div class="my-characters-hovermenu__item">Fixer</div>
