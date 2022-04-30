@@ -35,7 +35,7 @@ a:hover {
 
 .shortcut-section {
      display: flex;
-     flex-wrap: wrap;
+     /**flex-wrap: wrap;**/
      justify-content: space-evenly;
 }
 
@@ -80,6 +80,11 @@ a:hover {
 
 /**Estilos del nav**/
 
+.nav {
+     position: relative;
+     z-index: 10;
+}
+
 .my-characters-supmenu {
      position: relative;
 }
@@ -99,15 +104,12 @@ a:hover {
 
 .my-characters-hovermenu {
      position: absolute;
-     z-index: 1;
-
-     
+     z-index: -1;
      width: 100vh;
      background-color: #222d;
-
      top: -1000px; 
      left: 0px;
-     transition: all .3s;
+     transition: top .3s;
 }
 
 
@@ -126,7 +128,7 @@ a:hover {
      height: 80px;
      margin: 10px;
      background-color: #111;
-     transition: all .3s;
+     transition: border .3s;
 }
 
 .my-characters-hovermenu__item:hover {

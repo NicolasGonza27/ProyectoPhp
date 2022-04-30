@@ -9,6 +9,7 @@
      <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH ?>bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH ?>estilos.css">
      <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH ?>custom.css">
+     <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH ?>character-sheet.css">
 
      <!-- Fonts -->
      <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Rubik+Glitch&display=swap" rel="stylesheet">
