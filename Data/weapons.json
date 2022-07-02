@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Magnum",
+        "class": "handgun",
+        "precision": "G",
+        "encumbrance": null,
+        "availability": null,
+        "damage": null,
+        "ammo": null,
+        "clip_size": null,
+        "fire_rate": null,
+        "reliability": null
+    }
+]
