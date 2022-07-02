@@ -36,7 +36,7 @@
                     </ul>
                </li>
                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo FRONT_ROOT ?>Student/ShowListView">Factory</a>
+                    <a class="nav-link" href="<?php echo FRONT_ROOT ?>Weapon/ShowWeaponAddView">Factory</a>
                </li>
                <li class="nav-item">
                     <a class="nav-link" href="<?php echo FRONT_ROOT ?>Student/ShowListView">Garage</a>
