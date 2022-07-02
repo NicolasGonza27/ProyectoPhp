@@ -34,8 +34,8 @@
                         <span class="black-bg-lg-title">AGE</span>
                         <input type="number" max="999" min="0" class="input-black">
                     </div>
-                    
                 </div>
+                <!-- stats-->
                 <div class="flex-line">
                     <span class="black-bg-lg-title">STATS</span>
                 </div>
@@ -95,6 +95,7 @@
                         <input type="number" class="input-score">
                     </div>
                 </div>
+                <!--location and armor sp-->
                 <div class="flex-line">
                     <div class="flex-line-column">
                         <span class="black-bg-md-title">Location</span>
@@ -119,7 +120,30 @@
                         </div>
                     </div>
                 </div>
-                
+                <div class="flex-line">
+                    <div class="flex-line-column">
+                        <div class="black-letter-border">SAVE</div>
+                        <input type="number" class="input-score">
+                    </div> 
+                    <div class="flex-line-column">
+                        <div class="black-letter-border">BTM</div>
+                    </div> 
+                    <div class="flex">
+                        <span class="black-sml-letter">LIGHT</span>
+                    </div>
+                    <div class="flex">
+                        <span class="black-sml-letter">SERIOUS</span>
+                    </div>
+                    <div class="flex">
+                        <span class="black-sml-letter">CRITICAL</span>
+                    </div>
+                    <div class="flex">
+                        <span class="black-sml-letter">MORTAL0</span>
+                    </div>
+                    <div class="flex">
+                        <span class="black-sml-letter">MORTAL1</span>
+                    </div>
+                </div>
             </div>
 
             <div class="character-sheet__info__section">
