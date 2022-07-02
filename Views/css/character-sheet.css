@@ -25,6 +25,11 @@
     margin: 5px 0;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
 .flex-line-column {
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +118,25 @@
     margin: auto 0;
 }
 
+.input-score-lg {
+    width: 60px;
+    height: 80px;
+    margin: auto 0;
+    border: 3px solid #000;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+}
+
 .location-sp-boxes {
     display: flex;
     padding: 0 5px;
+}
+
+.button-size{
+    width: 15px;
+    height: 20px;
+    padding: auto;
+    margin: auto 0;
 }

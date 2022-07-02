@@ -28,11 +28,11 @@
                 <div class="flex-line">
                     <div class="flex-line">
                         <span class="black-bg-lg-title">CHARACTER POINTS</span>
-                        <input type="number" max="999" min="0" class="input-black">
+                        <input type="text" max="999" min="0" class="input-black">
                     </div>
                     <div class="flex-line">
                         <span class="black-bg-lg-title">AGE</span>
-                        <input type="number" max="999" min="0" class="input-black">
+                        <input type="text" max="999" min="0" class="input-black">
                     </div>
                 </div>
                 <!-- stats-->
@@ -42,57 +42,57 @@
                 <div class="flex-line">
                     <div class="flex">
                         <span class="black-lg-letter">INT</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-lg-letter">REF</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-lg-letter">TECH</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-lg-letter">COOL</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>  
                     <div class="flex">
                         <span class="black-lg-letter">ATTR</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-lg-letter">LUCK</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-lg-letter">MA</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-lg-letter">BODY</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-lg-letter">EMP</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>            
                 </div>
                 <div class="flex-line">
                     <div class="flex">
                         <span class="black-md-letter">Run</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-md-letter">Leap</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-md-letter">Carry</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                     <div class="flex">
                         <span class="black-md-letter">Lift</span>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score">
                     </div>
                 </div>
                 <!--location and armor sp-->
@@ -123,29 +123,113 @@
                 <div class="flex-line">
                     <div class="flex-line-column">
                         <div class="black-letter-border">SAVE</div>
-                        <input type="number" class="input-score">
+                        <input type="text" class="input-score-lg">
                     </div> 
                     <div class="flex-line-column">
                         <div class="black-letter-border">BTM</div>
-                    </div> 
-                    <div class="flex">
-                        <span class="black-sml-letter">LIGHT</span>
+                        <input type="text" class="input-score-lg">
                     </div>
-                    <div class="flex">
-                        <span class="black-sml-letter">SERIOUS</span>
-                    </div>
-                    <div class="flex">
-                        <span class="black-sml-letter">CRITICAL</span>
-                    </div>
-                    <div class="flex">
-                        <span class="black-sml-letter">MORTAL0</span>
-                    </div>
-                    <div class="flex">
-                        <span class="black-sml-letter">MORTAL1</span>
+                    <div class="flex-line-column">
+                        <div class="location-sp-boxes"> 
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">LIGHT</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">SERIOUS</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">CRITICAL</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">MORTAL0</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">MORTAL1</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="location-sp-boxes"> 
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">MORTAL2</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">MORTAL3</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">MORTAL4</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">MORTAL5</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                            <div class="flex-line-column">
+                                <span class="black-sml-letter">MORTAL6</span>
+                                <div class="flex-center">
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                    <button name="button" class="button-size"></button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="flex-line">
+                    <span class="black-bg-lg-title">SKILLS</span>
+                </div>
             </div>
-
             <div class="character-sheet__info__section">
                 <div class="character-img-container">
                     <img id="character_img" src="<?= IMG_PATH ?>no_image_available.png" alt="">
